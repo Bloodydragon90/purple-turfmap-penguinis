@@ -44,10 +44,11 @@
       dots.enter().append("circle").classed("dot", true)
       .attr("r", 1)
       .style({
-        fill: "#0082a3",
+        fill: "#FF0000",
         "fill-opacity": 0.6,
-        stroke: "#004d60",
+        stroke: "#FF0000",
         "stroke-width": 1
+        {"lat": -46.555, "lng": -49.942},
       })
       .transition().duration(1000)
       .attr("r", 6)
